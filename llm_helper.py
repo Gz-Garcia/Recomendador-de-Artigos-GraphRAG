@@ -5,7 +5,7 @@ with open('tools/llm_prompt.txt', 'r', encoding = 'utf-8') as f:
     system_prompt = f.read()
 
 # https://platform.openai.com/docs/api-reference/chat/create
-def chat(user_prompt, model, max_tokens=200, temp=0.5):
+def chat(user_prompt, model, max_tokens=1000, temp=0.5):
     # Cria o chat usando a API
     client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
     
