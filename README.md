@@ -2,27 +2,27 @@
 Chatbot simples feito com o Streamlit para recomendação de artigos acadêmicos usando LLM e GraphRAG
 
 Autores:
-> Gabriel Henrique Garcia Ticianeli
-> Nicole Barbosa Gomes
+> Gabriel Henrique Garcia Ticianeli<br>
+> Nicole Barbosa Gomes<br>
 
 ## Preparação do ambiente
 
 ### Dependências
-streamlit
-openai
-langgraph
-langchain_openai
-google-search-results
+streamlit<br>
+openai<br>
+langgraph<br>
+langchain_openai<br>
+google-search-results<br>
 
 ### Chaves da API
-É necessário possuir chaves de api válidas para a OpenAI e SerpAPI
-https://platform.openai.com/api-keys
-https://serpapi.com/manage-api-key
+É necessário possuir chaves de api válidas para a OpenAI e SerpAPI<br>
+> https://platform.openai.com/api-keys<br>
+> https://serpapi.com/manage-api-key<br>
 
 Insira as chaves no local inficado em .streamlit/secrets.txt, e renomeie o arquivo para secrets.toml
 
 ### Inicializando o aplicativo
-Em um terminal no ambiente, execute o comando
+Em um terminal no ambiente, execute o comando:<br>
 > streamlit run .\chatbot.py
 
 ## Usando o aplicativo
